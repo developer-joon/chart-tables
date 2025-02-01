@@ -1,0 +1,222 @@
+{
+  "copyPasteEnabled": true,
+  "manualColumnFreeze": true,
+  "autoWrapRow": true,
+  "autoWrapCol": true,
+  "contextMenu": false,
+  "manualRowMove": true,
+  "rowHeaders": true,
+
+  "fixedColumnsStart": 2,
+  "fixedRowsTop": 0,
+  "height": "auto",
+  "licenseKey": "non-commercial-and-evaluation",
+
+  "nestedHeaders": [
+    [
+      { "label": "X", "colspan": 2 },
+      { "label": "Y1", "colspan": 4 },
+      { "label": "Y2", "colspan": 4 },
+      { "label": "Y3", "colspan": 4 }
+    ],
+    [
+      "#",
+      "Value",
+      "Value",
+      "Step",
+      "Symbol",
+      "Label",
+      "Value",
+      "Step",
+      "Symbol",
+      "Label",
+      "Value",
+      "Step",
+      "Symbol",
+      "Label"
+    ]
+  ],
+  "columns": [
+    {
+      "type": "checkbox"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["linear", "step-up", "step-middle", "step-down"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["linear", "step-up", "step-middle", "step-down"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["linear", "step-up", "step-middle", "step-down"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    }
+  ],
+  "data": [
+    [
+      false,
+      "0",
+      10,
+      "linear",
+      "show",
+      "show",
+      20,
+      "linear",
+      "show",
+      "show",
+      30,
+      "linear",
+      "show",
+      "show"
+    ],
+    [
+      false,
+      "1h",
+      20,
+      "step-up",
+      "show",
+      "show",
+      10,
+      "linear",
+      "show",
+      "show",
+      20,
+      "linear",
+      "show",
+      "show"
+    ],
+    [
+      false,
+      "2h",
+      30,
+      "step-middle",
+      "show",
+      "show",
+      30,
+      "linear",
+      "show",
+      "show",
+      30,
+      "linear",
+      "show",
+      "show"
+    ],
+    [
+      false,
+      "3h",
+      40,
+      "step-up",
+      "show",
+      "show",
+      40,
+      "linear",
+      "show",
+      "show",
+      40,
+      "linear",
+      "show",
+      "show"
+    ],
+    [
+      false,
+      "4h",
+      50,
+      "linear",
+      "show",
+      "show",
+      50,
+      "linear",
+      "show",
+      "show",
+      50,
+      "linear",
+      "show",
+      "show"
+    ],
+    [
+      false,
+      "5h",
+      60,
+      "linear",
+      "show",
+      "show",
+      60,
+      "linear",
+      "show",
+      "show",
+      60,
+      "linear",
+      "show",
+      "show"
+    ],
+    [
+      false,
+      "6h",
+      70,
+      "linear",
+      "show",
+      "show",
+      70,
+      "linear",
+      "show",
+      "show",
+      70,
+      "linear",
+      "show",
+      "show"
+    ],
+    [
+      false,
+      "7h",
+      80,
+      "linear",
+      "show",
+      "show",
+      80,
+      "linear",
+      "show",
+      "show",
+      80,
+      "linear",
+      "show",
+      "show"
+    ]
+  ]
+}
