@@ -1,0 +1,29 @@
+name: Build on Windows
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      # 1. 리포지토리 체크아웃
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. 필요한 도구 설치 (예: .NET)
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+
+      # 3. 프로젝트 빌드
+      - name: Build project
+        run: dotnet build --configuration Release
+
+      # 4. 테스트 실행 (선택 사항)
+      - name: Run tests
+        run: dotnet test --configuration Release
