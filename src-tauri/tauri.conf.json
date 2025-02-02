@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "sang-chart",
+  "productName": "chart-tables",
   "version": "0.1.0",
-  "identifier": "com.sang-chart.app",
+  "identifier": "com.chart-tables.app",
   "build": {
     "frontendDist": "../src"
   },
@@ -10,7 +10,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "sang-chart",
+        "title": "chart-tables",
         "center": true,
         "width": 1510,
         "height": 865,
@@ -24,7 +24,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": "nsis",
+    "targets": "all",
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",

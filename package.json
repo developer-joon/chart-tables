@@ -1,11 +1,12 @@
 {
-  "name": "sang-chart",
+  "name": "chart-tables",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "tauri": "tauri",
-    "dev": "tauri dev"
+    "dev": "tauri dev",
+    "build": "tauri build"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2"
