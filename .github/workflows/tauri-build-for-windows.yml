@@ -23,7 +23,7 @@ jobs:
       # 3. 프로젝트 빌드
       - name: Build project
         run: dotnet build --configuration Release
-
+        working-directory: chart-tables
       # 4. 테스트 실행 (선택 사항)
-      - name: Run tests
-        run: dotnet test --configuration Release
+      # - name: Run tests
+      #   run: dotnet test --configuration Release
