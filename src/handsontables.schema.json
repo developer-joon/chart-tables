@@ -1,0 +1,297 @@
+{
+  "copyPasteEnabled": true,
+  "manualColumnFreeze": true,
+  "autoWrapRow": true,
+  "autoWrapCol": true,
+  "contextMenu": false,
+  "manualRowMove": true,
+  "rowHeaders": true,
+
+  "fixedColumnsStart": 2,
+  "fixedRowsTop": 0,
+  "height": "auto",
+  "licenseKey": "non-commercial-and-evaluation",
+
+  "nestedHeaders": [
+    [
+      { "label": "X", "colspan": 2 },
+      { "label": "Y1", "colspan": 6 },
+      { "label": "Y2", "colspan": 6 },
+      { "label": "Y3", "colspan": 6 }
+    ],
+    [
+      "#",
+      "Value",
+      "Value",
+      "Step",
+      "Symbol",
+      "SB-Size",
+      "Label",
+      "LabelPos",
+      "Value",
+      "Step",
+      "Symbol",
+      "SB-Size",
+      "Label",
+      "LabelPos",
+      "Value",
+      "Step",
+      "Symbol",
+      "SB-Size",
+      "Label",
+      "LabelPos"
+    ]
+  ],
+  "columns": [
+    {
+      "type": "checkbox"
+    },
+    {
+      "type": "text"
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["linear", "step-up", "step-middle", "step-down"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["top", "left", "right", "bottom"]
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["linear", "step-up", "step-middle", "step-down"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["top", "left", "right", "bottom"]
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["linear", "step-up", "step-middle", "step-down"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "numeric"
+    },
+    {
+      "type": "select",
+      "selectOptions": ["show", "hide"]
+    },
+    {
+      "type": "select",
+      "selectOptions": ["top", "left", "right", "bottom"]
+    }
+  ],
+  "data": [
+    [
+      false,
+      "0",
+      10,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      20,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      30,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ],
+    [
+      false,
+      "1h",
+      20,
+      "step-up",
+      "show",
+      5,
+      "show",
+      "top",
+      10,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      20,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ],
+    [
+      false,
+      "2h",
+      30,
+      "step-middle",
+      "show",
+      5,
+      "show",
+      "top",
+      30,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      30,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ],
+    [
+      false,
+      "3h",
+      40,
+      "step-up",
+      "show",
+      5,
+      "show",
+      "top",
+      40,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      40,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ],
+    [
+      false,
+      "4h",
+      50,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      50,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      50,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ],
+    [
+      false,
+      "5h",
+      60,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      60,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      60,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ],
+    [
+      false,
+      "6h",
+      70,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      70,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      70,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ],
+    [
+      false,
+      "7h",
+      80,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      80,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top",
+      80,
+      "linear",
+      "show",
+      5,
+      "show",
+      "top"
+    ]
+  ]
+}
